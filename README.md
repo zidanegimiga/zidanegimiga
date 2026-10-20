@@ -1,8 +1,8 @@
-# Hey, I'm Zidane 👋
+# Hey, I'm Zidane
 
-**Full-stack engineer in Nairobi. I build backends that don't fall over and AI features people actually use.**
+**Full-stack engineer based in Nairobi. I build backends that don't fall over and AI features people actually use.**
 
-I've spent about seven years shipping production software across healthcare, fintech, media and e-commerce. These days most of my work sits where solid backend engineering meets applied AI: pipelines, retrieval, document intelligence, and the interfaces that make it all usable.
+I've spent around seven years shipping production software across healthcare, fintech, media and e-commerce. These days most of my work sits where solid backend engineering meets applied AI: pipelines, retrieval, document intelligence, and the interfaces that make it all usable.
 
 - 🔭 Building AI products and the infrastructure under them
 - 🌱 Going deeper on agentic AI and multi-agent orchestration
@@ -62,18 +62,31 @@ I've spent about seven years shipping production software across healthcare, fin
 
 ## 🚀 Featured Projects
 
+### 🏥 [Claims Engine](https://github.com/zidanegimiga/case-engine)
+- A REST API that adjudicates healthcare insurance claims: upload a PDF claim form or invoice, get back a decision with reasons
+- Vision models pull structured data from scanned documents, with Tesseract as an offline fallback behind a swappable provider interface
+- A three-stage pipeline of rules plus an XGBoost fraud model, with SHAP explanations for every prediction
+- Python, FastAPI, MongoDB, Streamlit dashboard, Docker, pytest
+
 ### 🎙️ [Interview Transcriber](https://github.com/zidanegimiga/interview-transcriptor) · [Live demo](https://interview-transcriptor-frontend.vercel.app)
 - Upload an interview recording, get back a transcript with speaker labels plus a summary, sentiment, Q&A pairs, strengths and red flags
 - FastAPI and async MongoDB on the backend, Next.js on the front, Deepgram for transcription and GPT-4o-mini for analysis
 - Background processing with webhooks instead of polling, real-time UI updates, and 44 backend tests
 
-### 🧠 [Semantic Embeddings Service](https://github.com/zidanegimiga/RAG-semantic-embeddings-generator)
-- Pulls records from MongoDB, generates embeddings, and stores them in ChromaDB for retrieval
-- Comes with a query builder API on top, the groundwork for retrieval-augmented search
+### 📡 [Embed Widget Lab](https://github.com/zidanegimiga/embed-widget-lab)
+- A draggable React widget any site can embed with one script tag, isolated from the host page with Shadow DOM
+- Streams live alerts over WebSocket or server-sent events, fed by RabbitMQ through a durable queue and a fanout exchange
+- Origin allowlists, token checks and rate limiting, and it refuses to boot in production without its secrets
 
-### 🏷️ [Survey Question Classifier](https://github.com/zidanegimiga/rule-based-questions-classifier)
-- A command-line tool that tags survey questions in MongoDB using configurable rules
-- Built to cut out the manual tagging step before analysis
+### 🎫 [Docket](https://github.com/zidanegimiga/docket)
+- A support ticket tracker built to show how I structure a codebase, not just what it does
+- Next.js and Express in a Turborepo, PostgreSQL with Prisma, and shared Zod contracts so the API, the UI and the tests all validate against one schema
+- Layered routes, services and repositories wired in one place so everything can be faked in tests, plus an honest write-up of the trade-offs
+
+### 🧩 More Things I've Built
+- ⚽ [Football Data Surveyor](https://github.com/zidanegimiga/football_data_surveyor): ask questions about football data in plain English and Gemini turns them into MongoDB queries
+- 🧠 [Semantic Embeddings Service](https://github.com/zidanegimiga/RAG-semantic-embeddings-generator): generates embeddings from MongoDB records into ChromaDB for retrieval
+- ✨ [Cosmic Ink](https://github.com/zidanegimiga/graffiti_app) · [Live demo](https://graffiti-app.vercel.app): paint glowing particle trails across deep space on an HTML canvas, built one concept per commit
 
 ### 🚧 Currently Building
 - **Daedalus:** an AI onboarding assistant that answers new hires' questions from a company's own tools, with live citations. Python, FastAPI, PostgreSQL with pgvector, LangGraph.
@@ -111,5 +124,5 @@ I've spent about seven years shipping production software across healthcare, fin
 I'm open to full-stack, backend and AI engineering roles in Nairobi or remote.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://ke.linkedin.com/in/zidane-gimiga-976379135)
-
+[![X](https://img.shields.io/badge/@iamGimiga-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/iamGimiga)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hellozidanegimiga@gmail.com)
