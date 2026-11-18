@@ -61,7 +61,8 @@ I've spent around seven years shipping production software across healthcare, fi
 ---
 
 ### 🚧 Currently Building
-- **[Jalada AI](https://github.com/zidanegimiga/jalada-ai):**  helps Kenyans keep income and expense records from receipt photos and messages. Chatbot plus dashboard, designed for basic phones.
+- **[Jalada AI](https://github.com/zidanegimiga/jalada-ai):**  [DEMO](https://jalada-ai.netlify.app/)
+helps Kenyans keep income and expense records from receipt photos and messages. Chatbot plus dashboard, designed for basic phones.
 - **Daedalus:** an AI onboarding assistant that answers new hires' questions from a company's own tools, with live citations. Python, FastAPI, PostgreSQL with pgvector, LangGraph.
 
 ## 🚀 Featured Projects
