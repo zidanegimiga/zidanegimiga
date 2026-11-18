@@ -60,6 +60,10 @@ I've spent around seven years shipping production software across healthcare, fi
 
 ---
 
+### 🚧 Currently Building
+- **[Jalada AI](https://github.com/zidanegimiga/jalada-ai):**  helps Kenyans keep income and expense records from receipt photos and messages. Chatbot plus dashboard, designed for basic phones.
+- **Daedalus:** an AI onboarding assistant that answers new hires' questions from a company's own tools, with live citations. Python, FastAPI, PostgreSQL with pgvector, LangGraph.
+
 ## 🚀 Featured Projects
 
 ### 🏥 [Claims Engine](https://github.com/zidanegimiga/case-engine)
@@ -87,10 +91,6 @@ I've spent around seven years shipping production software across healthcare, fi
 - ⚽ [Football Data Surveyor](https://github.com/zidanegimiga/football_data_surveyor): ask questions about football data in plain English and Gemini turns them into MongoDB queries
 - 🧠 [Semantic Embeddings Service](https://github.com/zidanegimiga/RAG-semantic-embeddings-generator): generates embeddings from MongoDB records into ChromaDB for retrieval
 - ✨ [Cosmic Ink](https://github.com/zidanegimiga/graffiti_app) · [Live demo](https://graffiti-app.vercel.app): paint glowing particle trails across deep space on an HTML canvas, built one concept per commit
-
-### 🚧 Currently Building
-- **[Jalada AI](https://github.com/zidanegimiga/jalada-ai):**  helps Kenyans keep income and expense records from receipt photos and messages. Chatbot plus dashboard, designed for basic phones.
-- **Daedalus:** an AI onboarding assistant that answers new hires' questions from a company's own tools, with live citations. Python, FastAPI, PostgreSQL with pgvector, LangGraph.
 
 ---
 
